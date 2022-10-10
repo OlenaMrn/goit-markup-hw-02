@@ -1,0 +1,169 @@
+/* стилі для index.html */
+
+:root {
+  --primary-text-color: #212121;
+  --paragraf-text-color: #757575;
+  --acent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+
+.logo-link {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.logo-link-acent {
+  color: var(--acent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.link {
+text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* site nav */
+
+.main-nav .link .list {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--acent-color);
+  text-decoration: none;
+}
+
+.main-nav .link .current .filter {
+  color: var(--acent-color);
+ }
+
+
+
+/* hero */
+
+.hero-titel {
+  color: white;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4x;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+/* загальні стилі для всіх секцій */
+
+.section-titel {
+color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+}
+
+
+/* feachers */
+
+.feachers-list .titel {
+    
+color: var(--primary-text-color);
+
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+
+.paragraf-text {
+
+color: var(--acent-color)
+font-size: 14px;
+line-height: 1.7;
+}
+
+
+
+.paragraf-text .position {
+  color: var(--paragraf-text-color);
+}
+
+/* button */
+
+.order-batton {
+  color: white;
+  background-color: var(--acent-color);
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+
+  text-decoration: none;
+}
+
+.button {
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--acent-color);
+}
+
+/* team list */
+
+.position {
+}
+
+.name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+}
+
+/* стилі для portfolio.html */
+
+/* колір основного тексту #212121; */
+/* другорядний колір тексту  #757575;*/
+/* акцентний колір #2196F3; */
+/* білий #FFFFFF99 */
+/* другорядний колір фону #F5F4FA */
+/* колір футеру background: #2F303A; */
